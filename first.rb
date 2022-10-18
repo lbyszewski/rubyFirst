@@ -22,6 +22,19 @@ def fibb(x)
     return fibb(x-2) + fibb(x-1)
   end
 
+
 end
 puts("podana liczba  to: ")
 puts(fibb(x))
+
+lista = [2,-3,10,4,5,7,100,-30]
+
+for z in lista do
+
+
+
+
+end
+puts lista.min
+puts lista.max
+
