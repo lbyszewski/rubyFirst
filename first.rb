@@ -14,3 +14,14 @@ for liczba in x..y do
     puts liczba
   end
 end
+
+def fibb(x)
+  if (x<3)
+    return 1
+  else
+    return fibb(x-2) + fibb(x-1)
+  end
+
+end
+puts("podana liczba  to: ")
+puts(fibb(x))
